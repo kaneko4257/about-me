@@ -32,9 +32,21 @@ body{
     font-size: 50px;
 }
 
+.context p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.context h2{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
 .area{
     background: #e0baff;  
-    background: -webkit-linear-gradient(to left, #b39ffc, #e0baff);  
+    background: -webkit-linear-gradient(to left, #ab94fa, #e0baff);  
     width: 100%;
     height:100vh;
 }
