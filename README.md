@@ -1,7 +1,7 @@
 # about-me
 
 
-サイトURL:
+サイトURL:https://kaneko4257.github.io/about-me/
 
 このサイトは私のプロフィール用に作成しました。
 私が主にやっているゲームを中心に紹介しました。
