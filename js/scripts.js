@@ -7,3 +7,7 @@ Background Gradients From --
 https://uigradients.com
 */
 
+const CLASSNAME = "-visible";
+const TIMEOUT = 1500;
+const $target = $(".title");
+
