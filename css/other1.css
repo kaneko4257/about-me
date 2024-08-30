@@ -1,0 +1,35 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Video background styles */
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Ensure the video is behind other content */
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire screen */
+}
+
+/* Content styles */
+.content {
+    position: relative;
+    z-index: 1; /* Ensure content is above the video */
+    color: white; /* Adjust as needed for readability */
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
