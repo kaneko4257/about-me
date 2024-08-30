@@ -75,3 +75,23 @@
     min-width: 960px;
     }
 }
+
+main{
+	padding: 80px 0;
+}
+
+.block:not(:first-child){
+	margin-top: 60px;
+}
+
+.block h2{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.block p{
+	max-width: 600px;
+	margin: 20px auto 0;
+	text-align: center;
+}
