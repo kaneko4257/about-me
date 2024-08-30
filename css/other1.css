@@ -13,7 +13,7 @@
 
 .main-nav a {
     text-decoration: none; /* 下線を削除 */
-    color: #ffffff; /* リンクの文字色 */
+    color: #000000; /* リンクの文字色 */
 }
 
 .main-nav a:hover {
