@@ -2,13 +2,7 @@
 
 // ファビコンの画像ファイルのリスト
 const favicons = [
-    'hi.png',
-    'mizu.png',
-    'kaze.png',
-    'kaminari.png',
-    'kusa.png',
-    'koori.png',
-    'iwa.png',
+
 ];
 
 let currentIndex = 0; // 現在のファビコンのインデックス
