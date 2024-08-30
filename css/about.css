@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* フォントファミリーの設定 */
+}
+
+nav {
+    text-align: center; /* ナビゲーションを中央揃え */
+}
+
+.main-nav {
+    list-style: none; /* リストマーカーを削除 */
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline; /* 横並びにする */
+    margin-right: 20px; /* アイテム間のスペース */
+}
+
+.main-nav a {
+    text-decoration: none; /* 下線を削除 */
+    color: #000000; /* リンクの文字色 */
+}
+
+.main-nav a:hover {
+    color: #007BFF; /* ホバー時のリンクの色 */
+}
