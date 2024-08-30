@@ -1,35 +1,77 @@
-/* Reset some default styles */
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+/* kv */
+.kv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Video background styles */
-.video-background {
+.kv .main-copy{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: .2em;
+}
+
+.kv .sub-copy{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+  /* video */
+.video{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/kv-alternative.jpg) no-repeat center/cover;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     overflow: hidden;
-    z-index: -1; /* Ensure the video is behind other content */
+    z-index: -1;
 }
 
-#background-video {
+.video::after{
+    content: '';
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the video covers the entire screen */
+    background-color: #10394b;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .3;
 }
 
-/* Content styles */
-.content {
-    position: relative;
-    z-index: 1; /* Ensure content is above the video */
-    color: white; /* Adjust as needed for readability */
-    text-align: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+.video video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+@media screen and (min-width: 768px) {
+    /* kv */
+    .kv{
+    min-width: 960px;
+    }
+
+    .kv .main-copy{
+    font-size: 60px;
+    }
+
+    .kv .sub-copy{
+    font-size: 30px;
+    }
+
+    /* video */
+    .video{
+    min-width: 960px;
+    }
 }
