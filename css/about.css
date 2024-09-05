@@ -82,3 +82,44 @@ h1{
     text-align:center;
     text-transform:uppercase;
 }
+
+
+@media screen and (min-width: 768px) {
+    /* kv */
+    .kv{
+    min-width: 960px;
+    }
+
+    .kv .main-copy{
+    font-size: 60px;
+    }
+
+    .kv .sub-copy{
+    font-size: 30px;
+    }
+
+    /* video */
+    .video{
+    min-width: 960px;
+    }
+}
+
+main{
+	padding: 80px 0;
+}
+
+.block:not(:first-child){
+	margin-top: 60px;
+}
+
+.block h2{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.block p{
+	max-width: 600px;
+	margin: 20px auto 0;
+	text-align: center;
+}
