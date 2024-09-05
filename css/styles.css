@@ -89,3 +89,12 @@ main{
 	margin: 20px auto 0;
 	text-align: center;
 }
+
+
+/* styles.css */
+body {
+    background-image: url('bg_img.png'); /* 壁紙画像のパスを指定 */
+    background-size: cover; /* 画像が画面全体に広がるようにする */
+    background-repeat: no-repeat; /* 画像を繰り返さないようにする */
+    background-position: center; /* 画像を中央に配置する */
+}
