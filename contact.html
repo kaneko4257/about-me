@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>お問い合わせ</title>
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>お問い合わせ</title>
+        <style>
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
@@ -55,23 +55,35 @@
         input[type="submit"]:hover {
             background-color: #45a049;
         }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>お問い合わせ</h1>
-        <form action="/submit_form" method="post">
-            <label for="name">名前:</label>
-            <input type="text" id="name" name="name" required>
+        </style>
+    </head>
+        <div class="container">
+            <h1>お問い合わせ</h1>
+            <form action="/submit_form" method="post">
+                <label for="name">名前:</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="email">メールアドレス:</label>
-            <input type="email" id="email" name="email" required>
+                <label for="email">メールアドレス:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="message">メッセージ:</label>
-            <textarea id="message" name="message" required></textarea>
+                <label for="message">メッセージ:</label>
+                <textarea id="message" name="message" required></textarea>
 
-            <button type="submit">送信</button>
-        </form>
-    </div>
-</body>
+                <button type="submit">送信</button>
+            </form>
+        </div>
+
+        <div class="block">
+            <h1></h1>
+            <nav>
+                <ul class="main-nav">
+                    <h2><li><a href="index.html">Top</a></li></h2>
+                    <h2><li><a href="about.html">about</a></li></h2>
+                    <h2><li><a href="other1.html">原神へ</a></li></h2>
+                    <h2><li><a href="other2.html">スタレへ</a></li></h2>
+                    <h2><li><a href="other3.html">雀魂へ</a></li></h2>
+                </ul>
+            </nav>
+        </div>
+    </body>
 </html>
